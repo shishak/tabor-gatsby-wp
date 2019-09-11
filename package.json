@@ -1,18 +1,7 @@
 {
-  "name": "site",
-  "version": "0.0.1",
-  "description": "demo site",
-  "main": "gatsby-config.js",
-  "license": "MIT",
   "private": true,
-  "scripts": {
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-  },
-  "dependencies": {
-    "gatsby": "^2.1.27",
-    "gatsby-theme-tabor": "*",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
-  }
+  "workspaces": [
+    "theme",
+    "demo"
+  ]
 }
