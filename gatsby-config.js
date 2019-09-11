@@ -3,12 +3,12 @@ module.exports = {
     title: `Gatsby Starter`,
     description: `Gatsby starter site `,
     author: `@alexadark`,
-    wordPressUrl: `http://alexandraspalato.com/tabor`,
+    wordPressUrl: `http://api.texty.xyz`,
   },
   __experimentalThemes: [
     {
       resolve: 'gatsby-theme-tabor',
-      options: { wordPressUrl: `http://alexandraspalato.com/tabor` },
+      options: { wordPressUrl: `http://api.texty.xyz` },
     },
   ],
 };
